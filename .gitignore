@@ -27,3 +27,82 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# ==========================
+# IntelliJ IDEA
+# ==========================
+.idea/
+*.iml
+
+
+# ==========================
+# Java
+# ==========================
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# ==========================
+# Maven
+# ==========================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# ==========================
+# Gradle
+# ==========================
+.gradle/
+build/
+
+# ==========================
+# OS Files
+# ==========================
+
+Thumbs.db
+Desktop.ini
+
+
+
+# ==========================
+# Environment Files
+# ==========================
+.env
+.env.*
+*.env
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+*.swp
+*.bak
+*.orig
+
+# ==========================
+# Logs
+# ==========================
+logs/
+
+
+# ==========================
+# Package Archives
+# ==========================
+*.zip
+*.tar
+*.gz
+*.rar
+
+# ==========================
+# Generated Files
+# ==========================
+generated/
