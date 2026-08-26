@@ -1,5 +1,5 @@
-import date_31Aug2026.Students.Student1;
-import date_31Aug2026.Teachers.Teacher;
+import date_31Jul2026.Students.Student1;
+import date_31Jul2026.Teachers.Teacher;
 
 public class Main {
     public static void main(String[] args) {

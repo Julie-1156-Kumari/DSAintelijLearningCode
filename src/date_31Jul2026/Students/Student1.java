@@ -1,9 +1,9 @@
-package date_31Aug2026.Teachers;
+package date_31Jul2026.Students;
 
-public class Teacher {
-    String name = "Sristi";
-    int age = 32;
-    String location = "Delhi";
+public class Student1 {
+    String name = "Trishna";
+    int age = 23;
+    String location = "Ludhiyana";
 
     public void displayStudentInfo() {
         System.out.println("Name: " + name);

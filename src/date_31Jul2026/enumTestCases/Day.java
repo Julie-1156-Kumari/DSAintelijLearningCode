@@ -1,4 +1,4 @@
-package date_31Aug2026.enumTestCases;
+package date_31Jul2026.enumTestCases;
 
 //An enum stores a fixed set of constants.
 public enum Day {

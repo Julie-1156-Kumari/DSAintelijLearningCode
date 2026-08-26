@@ -1,4 +1,4 @@
-package date_31Aug2026.com.company.student;
+package date_31Jul2026.com.company.student;
 
 public class StudentMain {
     public static void main(String[] args) {
