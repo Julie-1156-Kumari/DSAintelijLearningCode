@@ -25,6 +25,19 @@ public class LLmain2 {
         System.out.print("null");
         System.out.println();
         System.out.println("------------------------------------------------");
+
+        System.out.println("******** Insert a new node at kth position ********");
+        LLNode curr2 = new LLNode(12);
+        InsertNodeAtKthPosition.InsertNodeAtKthPosition(head, curr2 ,2);
+        curr1 = head;
+        System.out.println("-------------------------------------------------");
+        while (curr1 != null){
+            System.out.print(curr1.value + " -> ");
+            curr1 = curr1.next;
+        }
+        System.out.print("null");
+        System.out.println();
+        System.out.println("------------------------------------------------");
         System.out.println("*********************************************");
 
     }
