@@ -40,5 +40,10 @@ public class LLmain2 {
         System.out.println("------------------------------------------------");
         System.out.println("*********************************************");
 
+        System.out.println("******** Check Plalindrome of Given LinkedList ********");
+        boolean bool = CheckPalindromeLL.checkPalindromeLL(head);
+        System.out.println("Is the Input Given LL is Palindrome, True or False : " + bool);
+        System.out.println("*********************************************");
+
     }
 }
