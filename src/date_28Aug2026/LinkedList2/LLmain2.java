@@ -40,9 +40,12 @@ public class LLmain2 {
         System.out.println("------------------------------------------------");
         System.out.println("*********************************************");
 
-        System.out.println("******** Check Plalindrome of Given LinkedList ********");
+        System.out.println("******** Check Palindrome of Given LinkedList ********");
         boolean bool = CheckPalindromeLL.checkPalindromeLL(head);
-        System.out.println("Is the Input Given LL is Palindrome, True or False : " + bool);
+        System.out.println("Is the Input Given LL is Palindrome using two pointer and array, True or False : " + bool);
+
+        boolean bool1 = CheckPalindromeLL.checkPalindromeLL1(head);
+        System.out.println("Is the Input Given LL is Palindrome using same ll and two pointer method, True or False : " + bool1);
         System.out.println("*********************************************");
 
     }
